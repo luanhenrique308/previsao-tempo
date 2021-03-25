@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Syne Mono', monospace;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background:#2d2d2d56;
+}
+.content{
+    width: 300px;
+    height: 70%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 auto;    
+    background: #FFFFFF;
+
+}

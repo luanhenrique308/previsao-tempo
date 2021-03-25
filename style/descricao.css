@@ -1,0 +1,83 @@
+.temp{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 0.1px solid rgba(0, 0, 0, 0.226);
+    justify-content: space-around;
+    align-items: center;
+}
+.temp-atual{
+    font-size: 24px;
+    font-weight: bold;
+}
+.data-atual{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.61);
+}
+
+.descricao{
+    display: grid;
+    grid-template-rows: 0.5fr 1fr ;
+}
+.contentdescricao{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.group-description{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 70%;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    margin-right: 5px;
+    text-align: center;
+}
+.nomecidade, .clima, .velocidadeVento{
+    align-items: center;
+    font-size: 13px;
+}
+.nomecidade{
+    color: rgb(0, 0, 0);
+}
+.iconTempo img{
+    width: 70%;
+}
+.clima{
+    color: rgba(0, 0, 0, 0.507);
+}
+
+.velocidade{
+    display: flex;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+.iconvelocidade{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    margin-left: 5px;
+    background: rgba(0, 0, 0, 0.034);
+    border-radius: 50%;
+}
+.iconvelocidade i {
+    display: flex;
+    font-size: 10px;
+}
+.iconvelocidade img{
+    width: 70%;
+}

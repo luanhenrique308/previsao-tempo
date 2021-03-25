@@ -1,0 +1,29 @@
+{
+  "name": "previsao-tempo",
+  "version": "1.0.0",
+  "description": "fiz essa tela animada mostrando o clima da região usando JavaScript e consumindo uma Api com node para pegar o clima atual",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luanhenrique308/previsao-tempo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luanhenrique308/previsao-tempo/issues"
+  },
+  "homepage": "https://github.com/luanhenrique308/previsao-tempo#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

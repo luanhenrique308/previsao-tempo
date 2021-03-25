@@ -1,0 +1,27 @@
+.tempo{
+    display: flex;
+}
+.content-temp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: -3px -3px 2px rgba(255, 255, 255, 0.3),
+                5px 5px 5px rgba(0, 0, 0, 0.2),
+                15px 15px 15px rgba(0, 0, 0, 0.2);
+}
+.temperatura{
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.temperatura span{
+    display: flex;
+    margin-right: 5px;
+    font-size: 10px;
+}
